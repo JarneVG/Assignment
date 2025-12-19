@@ -27,10 +27,10 @@ for i = 1:length(k1_vals)
         c  = c_vals(j);
 
         % Define transfer function
-        numerator = k2*(c*s + 2*k1);
-        denominator = (m2*s^2 + c*s + 2*k1 + k2)*(m1*s^2 + c*s + 2*k1) ...
+        teller = k2*(c*s + 2*k1);
+        noemer = (m2*s^2 + c*s + 2*k1 + k2)*(m1*s^2 + c*s + 2*k1) ...
                  - (c*s + 2*k1)^2;
-        H = numerator/denominator;
+        H = teller/noemer;
 
         % Frequency response |H(jw)|
         Hjw = squeeze(abs(freqresp(H, w)));
