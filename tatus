@@ -1,0 +1,17 @@
+* [33mdb07a98[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m initial push assignment 1
+* [33m0a3f0af[m updated matlab
+* [33mca408eb[m update
+* [33mc57ec75[m Added a way to visualize the soft bounds to the walls
+* [33m9eed67a[m Softer bounds as walls using bezier curve and quadratics
+* [33m2556fec[m[33m ([m[1;31morigin/no_walls_soft_bounds[m[33m, [m[1;32mno_walls_soft_bounds[m[33m)[m Implemented soft start based on previous succesful runs
+* [33mb547486[m Optimal control slides
+* [33mc86fbd2[m Finetuned some weights
+* [33m9b2a6e4[m Keep theta in check to prevent spinning of moonlander: 23.86s Also improved time for rendering the animation. Also gave a warm start for the px-pz trajectory (imprves things a lot)
+* [33m3249f78[m First maze solved! but no easy convergence
+* [33m09bf536[m State Space derivation + sketch
+* [33mee3c7d6[m State Space and cool animation
+* [33mf783b07[m Moonlander assignment
+* [33mb3a7b0b[m Adding completed tutorials folder
+* [33m54557b6[m transfer function plotting code
+* [33md13cb06[m Readme start
+* [33m6ace855[m Initial push
